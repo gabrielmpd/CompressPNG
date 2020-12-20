@@ -1,9 +1,14 @@
 import os
 from PIL import Image
 
+#funçao para converter imagens png para jpg
+# image1 = Image.open("C:\Users\Gabriel\Documents\GitHub\CompressPNG\wow.png)
+# rgb = image1.convert('RGB')
+# rgb.save('wow1.jpg)
+
 #funçao para verificar se os arquivos do diretório sao imagens
 def eh_imagem(nome_arquivo):
-    if nome_arquivo.endswith('png'):
+    if nome_arquivo.endswith('png') or nome_arquivo.endswith('jpg'):
         return True
     return False
 
