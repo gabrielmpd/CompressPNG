@@ -1,0 +1,7 @@
+Instruções
+
+Para executar este código, é necessário:
+
+1- Instalar a biblioteca Pillow (pip install pillow)
+2- Modificar o diretório
+3- Ter uma pasta de Output
