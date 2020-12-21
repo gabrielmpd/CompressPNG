@@ -12,7 +12,7 @@ def eh_imagem(nome_arquivo):
         return True
     return False
 
-def reduzir_tamanho_imagens(input_dir, output_dir, ext='.jpg'):
+def reduzir_tamanho_imagens(input_dir, output_dir, ext='.png'):
     lista_de_arquivos = [nome for nome in os.listdir(input_dir) if eh_imagem(nome)]
     for nome in lista_de_arquivos:
         imagem = Image.open(os.path.join(input_dir, nome)).convert('RGB')
