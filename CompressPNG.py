@@ -26,3 +26,4 @@ if __name__ == "__main__":
     reduzir_tamanho_imagens(diretorio, 'output')
 
 #Link do github: https://github.com/gabrielmpd/CompressPNG
+#link para os videos: https://posinatel-my.sharepoint.com/:f:/g/personal/gabrielmoreira_gec_inatel_br/EkrJswmnt-dKvBNGs33OybsBrWSSTucUbb_pV6HgOunTsQ?e=YUxUUb
